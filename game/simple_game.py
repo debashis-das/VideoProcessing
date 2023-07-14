@@ -192,24 +192,24 @@ def changeColDirection(colMove):
     current_movement[1] = not colMove
 
 
-print(len(image))
-print(len(image[0]))
+# print(len(image))
+# print(len(image[0]))
 # changePixelColor([[200, 200], [210, 210]], (0, 0, 0))
 # counter = 0
-while 1:
-    cv.imshow('image', image)
-    k = cv.waitKey(1) & 0xFF
-    if k == 27:
-        break
-    if k == 3:
-        moveSliderRight()
-    elif k == 2:
-        moveSliderLeft()
-    startGame(current_movement[0], current_movement[1])
+# while 1:
+#     cv.imshow('image', image)
+#     k = cv.waitKey(1) & 0xFF
+#     if k == 27:
+#         break
+#     if k == 3:
+#         moveSliderRight()
+#     elif k == 2:
+#         moveSliderLeft()
+#     startGame(current_movement[0], current_movement[1])
     # counter logic
     # counter += 1
     # if counter == 10000:
     #     break
-    time.sleep(1 / 100)
+    # time.sleep(1 / 100)
 # cv.imwrite('test2.jpg', image)
-cv.destroyAllWindows()
+# cv.destroyAllWindows()
